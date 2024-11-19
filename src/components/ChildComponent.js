@@ -2,7 +2,7 @@ import React from "react";
 
 const ChildComponent = ({ cartItems }) => {
   return (
-    <div>
+    <div className="child">
       <h2>Child Component</h2>
       <ul>
         {cartItems.length > 0 &&
